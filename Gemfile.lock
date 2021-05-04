@@ -7,14 +7,17 @@ GEM
       rake (~> 10)
       semver2 (~> 3.4)
     map (6.6.0)
-    mini_portile2 (2.4.0)
-    nokogiri (1.10.10-x64-mingw32)
-      mini_portile2 (~> 2.4.0)
+    nokogiri (1.11.3-x64-mingw32)
+      racc (~> 1.4)
+    nokogiri (1.11.3-x86_64-linux)
+      racc (~> 1.4)
+    racc (1.5.2)
     rake (10.5.0)
     semver2 (3.4.2)
 
 PLATFORMS
   x64-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   albacore (~> 2)
